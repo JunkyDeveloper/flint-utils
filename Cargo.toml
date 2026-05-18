@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "flint-index",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2024"
+authors = ["JunkyDeveloper"]
+license = "MIT"
+
+[workspace.dependencies]
+flint-core = { git = "https://github.com/FlintTestMC/flint-core.git" , tag="v1.1.3"}
+dotenvy = "0.15.7"
