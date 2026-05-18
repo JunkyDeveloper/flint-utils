@@ -9,5 +9,4 @@ fn main() {
         .unwrap()
         .verify_and_rebuild_index()
         .expect("Verify wasn't successfull and rebuild also failed");
-    println!("Hello, world!");
 }
